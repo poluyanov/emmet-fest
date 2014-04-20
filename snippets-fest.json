@@ -1,0 +1,30 @@
+{
+    "xml": {
+        "extends": "html",
+        "abbreviations": {
+            "fest": "<fest:template xmlns:fest=\"http://fest.mail.ru\">",
+            "set": "<fest:set name=\"${name}\">",
+            "get": "<fest:get name=\"${name}\">",
+            "val": "<fest:value output=\"html\">|</fest:value>",
+            "var": "<fest:var name=\"${varname}\"></fest:var>",
+            "tex": "<fest:text>",
+            "space": "<fest:space />",
+            "script": "<fest:script>",
+            "elem": "<fest:element name=\"${elname}\"></fest:element>",
+            "attr": "fest:attributes>fest:attribute[name=\"|\"]",
+            "each": "<fest:each iterate=\"${varname}|\" index=\"i\" value=\"v\">\n</fest:each>",
+            "for": "<fest:for iterate=\"${varname}\" index=\"i\" value=\"v\">\n</fest:for>",
+            "if": "<fest:if test=\"|\"></fest:if>",
+            "ch": "<fest:choose>",
+            "ot": "<fest:otherwise>",
+            "when": "fest:when",
+            "fest:when": "<fest:when test=\"|\"></fest:when>",
+            "choose": "<fest:choose>",
+            "choose+": "fest:choose>fest:when+fest:otherwise",
+            "cdata": "<fest:cdata>\n<![CDATA[|]]>\n</fest:cdata>",
+            "com": "<fest:comment>",
+            "inc": "<fest:include context=\"|\" src=\"\"/>",
+            "ins": "<fest:insert src=\"|\"/>"
+        }
+    }
+}
